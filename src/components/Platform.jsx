@@ -39,7 +39,7 @@ export default function Platform() {
                 className="mt-8 rounded-xl bg-sky-500 px-7 font-bold hover:bg-sky-400"
               >
                 Acessar demonstração
-                <span className="ml-2">→</span>
+                
               </Button>
             </Link>
           </div>

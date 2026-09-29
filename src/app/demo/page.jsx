@@ -12,6 +12,7 @@ import StockCharts from "@/components/StockCharts";
 import AddMaterialDialog from "@/components/Amd";
 import MovementDialog from "@/components/MovementDialog";
 
+
 function getStatus(quantity, minStock) {
   if (quantity === 0) {
     return "NO_STOCK";

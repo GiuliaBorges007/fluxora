@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute -bottom-40 -left-40 h-[400px] w-[400px] rounded-full bg-blue-600/10 blur-3xl" />
 
       <div className="relative mx-auto flex max-w-7xl items-center justify-center px-6 py-24 text-center lg:py-32">
-        <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 motion-reduce:animate-none">
           <Badge className="mb-6 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2 text-xs font-semibold text-sky-400 hover:bg-sky-500/10">
             Gestão inteligente de matéria-prima
           </Badge>
@@ -35,7 +35,7 @@ export default function Hero() {
                 className="w-full rounded-xl bg-sky-500 px-7 py-6 text-base font-bold text-white shadow-xl shadow-sky-500/20 transition hover:-translate-y-0.5 hover:bg-sky-400 sm:w-auto"
               >
                 Experimentar demonstração
-                <span className="ml-2">→</span>
+                
               </Button>
             </Link>
 

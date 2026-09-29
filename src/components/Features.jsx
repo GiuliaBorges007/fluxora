@@ -25,7 +25,7 @@ export default function Features() {
 
             <Link href="/demo">
               <Button className="mt-8 rounded-xl bg-sky-500 px-6 font-semibold hover:bg-sky-400">
-                Explorar demonstração →
+                Explorar demonstração
               </Button>
             </Link>
           </div>
